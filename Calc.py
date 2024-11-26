@@ -28,9 +28,9 @@ if __name__ == "__main__":
     win = Tk()
     win.configure(background="black")
     win.title("Adi's Calculator")
-    win.geometry("345x347")
-    win.minsize(345, 347)
-    win.maxsize(345, 347)
+    win.geometry("345x410")
+    win.minsize(345, 410)
+    win.maxsize(345, 410)
 
     expression = ""
     equation = StringVar()
